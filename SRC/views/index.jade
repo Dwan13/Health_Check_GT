@@ -1,0 +1,22 @@
+doctype html
+html(dir='ltr', lang='en')
+  head
+    meta(charset='utf-8')
+    title MovieInfo
+    link(rel='stylesheet', href='https://bootswatch.com/4/slate/bootstrap.min.css')
+    link(rel='stylesheet', href='css/style.css')
+  body
+    nav.navbar.navbar-default
+      .container
+        .navbar-header
+          a.navbar-brand(href='/') MovieInfo
+    .container
+      .jumbotron
+        h3.text-center Search For Any Movie
+        form#searchForm
+          input#searchText.form-control(type='text', placeholder='Search Movies...')
+    .container
+      #movies.row
+    script(src='https://code.jquery.com/jquery-3.4.1.min.js', integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=', crossorigin='anonymous')
+    script(src='https://unpkg.com/axios/dist/axios.min.js')
+    script(type='text/javascript', src='js/main.js')
