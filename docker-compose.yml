@@ -2,9 +2,7 @@ version: "3"
 services:
   app2:
     container_name: app2 # How the container will appear when listing containers from the CLI
-    build:
-      context: .
-      dockerfile: Dockerfile	 # The <container-name>:<tag-version> of the container, in this case the tag version aligns with the version of node
+    image: node:10 # The <container-name>:<tag-version> of the container, in this case the tag version aligns with the version of node
     user: node # The user to run as in the container
     working_dir: "/app2" # Where to container will assume it should run commands and where you will start out if you go inside the container
     networks:
@@ -17,3 +15,5 @@ services:
 
 networks:
   app2:
+
+
