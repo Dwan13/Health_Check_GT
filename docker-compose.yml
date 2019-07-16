@@ -13,7 +13,9 @@ services:
     - "8070:8070" # <host-port>:<container-port> to listen to, so anything running on port 3000 of the container will map to port 3000 on our localhost
     volumes:
     - ./:/app3 # <host-directory>:<container-directory> this says map the current directory from your system to the /app directory in the docker container
-    command: "node SRC/index.js" # The command docker will execute when starting the container, this command is not allowed to exit, if it does your container will stop
+    command: npm start
+
+    command: "node index.js" # The command docker will execute when starting the container, this command is not allowed to exit, if it does your container will stop
     healthcheck:
       test: curl --fail -s http://localhost:8070/ || exit 1
       interval: 1m30s

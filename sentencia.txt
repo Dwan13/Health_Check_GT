@@ -1,0 +1,12 @@
+
+
+
+
+npm install
+
+sudo docker-compose up
+
+sudo docker inspect --format='{{json .State.Health}}' app3
+
+sudo docker ps
+
