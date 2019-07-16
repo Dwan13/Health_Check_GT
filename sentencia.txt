@@ -10,3 +10,5 @@ sudo docker inspect --format='{{json .State.Health}}' app3
 
 sudo docker ps
 
+sudo docker inspect app3
+
