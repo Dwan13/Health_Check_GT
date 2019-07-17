@@ -1,5 +1,7 @@
 # Implementación de Health Check para un servicio de consumo de películas
 
+![pipeline](1.png)
+
 ## Integrantes
 
 ### Dwan Felipe Veloza Paez
@@ -10,6 +12,7 @@
 ### Ivan René Arévalo Venegas
 
 # :ledger: Pasos
+
 
 #  1) npm-install
 
