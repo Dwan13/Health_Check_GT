@@ -12,7 +12,7 @@
 
 # npm-install
 
-## Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock o shrinkwrap, la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. 
+## Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. 
 
 ### Un paquete es:
 
