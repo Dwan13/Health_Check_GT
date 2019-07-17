@@ -10,9 +10,9 @@
 ### Ivan René Arévalo Venegas
 
 
-# Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock o shrinkwrap, la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. Consulte package-lock.json y npm-shrinkwrap.
+# npm-install
 
-## npm-install
+## Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock o shrinkwrap, la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. Consulte package-lock.json y npm-shrinkwrap.
 
 ### Un paquete es:
 
