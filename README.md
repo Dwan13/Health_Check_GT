@@ -11,7 +11,7 @@
 
 # :ledger: Pasos
 
-# npm-install
+#  1) npm-install
 
 ## Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. 
 
@@ -27,7 +27,7 @@
     
   ## Instale las dependencias en la carpeta local node_modules.
   
-  # docker-compose up
+  # 2) docker-compose up
   
   ## comando agrega la salida de cada contenedor (esencialmente en ejecución).
 ### Si existen contenedores para un servicio y la configuración o la imagen del servicio se modificó después de la creación del contenedor, la ventana acoplable-compilación recoge los cambios al detener y recrear los contenedores (conservando los volúmenes montados). Para evitar que Compose recoja los cambios.
