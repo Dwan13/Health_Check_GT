@@ -24,7 +24,12 @@
     f) un <nombre> que tiene una etiqueta "más reciente" que satisface (e)
     g) un <git url remoto> que se resuelve en (a)
     
-  # Instale las dependencias en la carpeta local node_modules.
+  ## Instale las dependencias en la carpeta local node_modules.
+  
+  # docker-compose up
+  
+  ## comando agrega la salida de cada contenedor (esencialmente en ejecución).
+### Si existen contenedores para un servicio y la configuración o la imagen del servicio se modificó después de la creación del contenedor, la ventana acoplable-compilación recoge los cambios al detener y recrear los contenedores (conservando los volúmenes montados). Para evitar que Compose recoja los cambios.
 
 
 
