@@ -10,11 +10,11 @@
 ### Ivan René Arévalo Venegas
 
 
-#Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock o shrinkwrap, la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. Consulte package-lock.json y npm-shrinkwrap.
+# Este comando instala un paquete y cualquier paquete del que dependa. Si el paquete tiene un archivo package-lock o shrinkwrap, la instalación de las dependencias será impulsada por eso, con un npm-shrinkwrap.json teniendo prioridad si ambos archivos existen. Consulte package-lock.json y npm-shrinkwrap.
 
-##npm-install
+## npm-install
 
-###Un paquete es:
+### Un paquete es:
 
     a) una carpeta que contiene un programa descrito por un archivo package.json
     b) un tarball comprimido que contiene (a)
@@ -24,7 +24,7 @@
     f) un <nombre> que tiene una etiqueta "más reciente" que satisface (e)
     g) un <git url remoto> que se resuelve en (a)
     
-  #Instale las dependencias en la carpeta local node_modules.
+  # Instale las dependencias en la carpeta local node_modules.
 
 
 
