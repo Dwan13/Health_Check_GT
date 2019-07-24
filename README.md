@@ -77,11 +77,11 @@
 
 ### Docker inspect proporciona información detallada sobre construcciones controladas por Docker. De forma predeterminada, los resultados se mostrarán en una matriz JSON.
 
-![pipeline](7.png)
+![pipeline](.png)
 
-![pipeline](7.png)
+![pipeline](.png)
 
-![pipeline](7.png)
+![pipeline](.png)
 
 
 
