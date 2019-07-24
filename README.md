@@ -47,7 +47,7 @@
 
 ## La salud del contenedor no se indica hasta la primera ejecución del script o comando.Tras pasar el intervalo de tiempo óptimo podemos observar que el comando es correcto y tiene por respuesta “healthy”
 
-![pipeline](6.png)
+![pipeline](.png)
 
 
 #  4) sudo docker ps
@@ -56,7 +56,7 @@
 ### docker ps agrupa los puertos expuestos en un solo rango si es posible. En el ejercicio final, un contenedor que expone los puertos TCP 0.0.0.0:8070->8070/tcp, donde se expondrá la información del aplicativo en la ejecución desde la web 
  
 
-![pipeline](5.png)
+![pipeline](6.png)
 
 ### La información correspondiente a cada ítem del docker ps: 
 
