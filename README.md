@@ -37,7 +37,7 @@
   ## comando agrega la salida de cada contenedor (esencialmente en ejecución).
 ### Si existen contenedores para un servicio y la configuración o la imagen del servicio se modificó después de la creación del contenedor, la ventana acoplable-compilación recoge los cambios al detener y recrear los contenedores (conservando los volúmenes montados). Para evitar que Compose recoja los cambios.
 
-![pipeline](3.png)
+
 
  ### La funcionalidad de healthcheck permite proporcionar un comando o script de verificación de estado del contenedor o tarea. De esta forma, podemos detectar problemas de servicio cuando el proceso maestro está en ejecución, por ejemplo cuando el rendimiento de nuestra aplicación se ve afectado.
 ### Es posible configurar el intervalo entre verificaciones de estado, el tiempo de respuesta/finalización del script o comando y el número de ejecuciones que deben ser erróneas antes de indicar el contenedor/tarea como erróneo o caído. Simplemente con un script o comando y su salida podremos gestionar el comportamiento.
