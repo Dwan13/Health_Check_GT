@@ -47,7 +47,7 @@
 
 ## La salud del contenedor no se indica hasta la primera ejecución del script o comando.Tras pasar el intervalo de tiempo óptimo podemos observar que el comando es correcto y tiene por respuesta “healthy”
 
-![pipeline](4.png)
+![pipeline](6.png)
 
 
 #  4) sudo docker ps
